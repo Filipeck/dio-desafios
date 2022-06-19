@@ -1,6 +1,6 @@
 # **<center>O que é controle de versão?🤷‍♂️</center>**
 
-
+[Download do GIT](https://git-scm.com/)
 
 ## Como o controle de versão ajuda no desenvolvimento de alto desempenho e ajuda as equipes de DevOps a prosperar
 
