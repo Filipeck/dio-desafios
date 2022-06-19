@@ -68,7 +68,7 @@ Existem muitas opções, mas a gente vai se concentrar em apenas uma, o Git.
 
  
 
-![Git - Logo Downloads](file:///C:/Users/wht_l/AppData/Local/Temp/msohtmlclip1/01/clip_image002.png)
+<img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" alt="Git - Logo Downloads" style="zoom: 50%;" />
 
  
 
