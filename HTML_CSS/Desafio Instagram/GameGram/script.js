@@ -17,7 +17,7 @@ const handleFocusOut = ({target}) => {
 const handleChange = () => {
     const [username, password] = inputs;
 
-    if (username.value && password.value.lenght >= 8) {
+    if (username.value && password.value.length >= 8) {
 
         button.removeAttribute('disabled');
     } else{
