@@ -48,3 +48,39 @@ console.log(numeroPositivo3(9));
 
 //Ex 4
 
+function positivo10(num){
+    const negativo = num < 0;
+    const maior10 = num > 10;
+
+    if(negativo){
+        return "Esse número é negativo!";
+    }else if (!negativo && maior10){
+        return "Esse número é positivo e maior que 10";
+    }
+
+    return "Esse número é positivo!";
+}
+
+console.log(positivo10(15));
+
+//Switch/case - Equivale a uma comparação de tipo e valor (===), sempre precisa de um "default"
+
+function getAnimal(id) {
+    switch(id) {
+        case 1:
+            return "doguinho";
+        case 2:
+            return "bichano";
+        case 3:
+            return "lontrinha";
+        case 4:
+            return "passarinho"
+        default:
+            return "Esta não é uma opção válida, selecione um número entre 1 e 4!";
+    }
+}
+
+console.log(getAnimal(2));
+console.log(getAnimal("2"));
+console.log(getAnimal(6));
+
