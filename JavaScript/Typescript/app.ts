@@ -1,69 +1,39 @@
-const pessoa = {
-    nome: "Mariana",
-    idade: 28,
-    profissao: "desenvolvedora"
-}
+//Desafio 3
+// O código abaixo tem alguns erros e não funciona como deveria. Você pode identificar quais são e corrigi-los em um arquivo TS?
 
-pessoa.idade = 25;
+// let botaoAtualizar = document.getElementById('atualizar-saldo');
+// let botaoLimpar = document.getElementById('limpar-saldo')!;
+// let soma = document.getElementById('soma')! as HTMLInputElement;
+// let campoSaldo = document.getElementById('campo-saldo');
 
-const andre: {nome: string, idade: number, profissao: string} = {
-    nome: 'Andre',
-    idade: 25,
-    profissao: 'pintor'
-}
+// let saldoTotal = 0
 
-const paula: {nome: string, idade: number, profissao: string} = {
-    nome: 'Paula',
-    idade: 26,
-    profissao: 'Desenvolvedora'
-}
+// limparSaldo()
 
-enum Profissao {
-    Professora,
-    Atriz,
-    Desenvolvedora,
-    JogadoraDeFutebol
-}
+// function somarAoSaldo(soma: number) {
+//     if (campoSaldo) {
+//         saldoTotal += soma
+//         campoSaldo.innerHTML = saldoTotal.toString();
+//         limparCampoSoma();
+//     }
+// }
 
-interface Estudante extends Pessoa {
-    materias: string[]
-}
+// function limparCampoSoma() {
+//     soma.value = "";
+// }
 
-interface Pessoa {
-    nome: string,
-    idade: number,
-    profissao?: Profissao
-}
+// function limparSaldo() {
+//     if (campoSaldo) {
+//         saldoTotal = 0;
+//         campoSaldo.innerHTML = saldoTotal.toString();
+//     }
+// }
 
-const vanessa: Pessoa = {
-    nome: 'Vanessa',
-    idade: 23,
-    profissao: Profissao.Desenvolvedora
-}
-
-const maria: Pessoa = {
-    nome: 'Vanessa',
-    idade: 26,
-    profissao: Profissao.Desenvolvedora
-}
-
-const jessica: Estudante = {
-    nome: 'Jessica',
-    idade: 28,
-    profissao: Profissao.Desenvolvedora,
-    materias: ['Matemática discreta', 'programação']
-}
-
-const monica: Estudante = {
-    nome: 'Jessica',
-    idade: 28,
-    materias: ['Matemática discreta', 'programação']
-}
-
-function listar(lista: string[]) {
-    for (const item of lista) {
-        console.log('- ', item);
-    }
-}
-
-listar(monica.materias);
+// if (botaoAtualizar) {
+//     botaoAtualizar.addEventListener('click', () => {
+//         somarAoSaldo(Number(soma.value)); 
+//     });
+// }
+// botaoLimpar.addEventListener('click', () => {
+//     limparSaldo();
+// });
