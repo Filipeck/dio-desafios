@@ -1,6 +1,6 @@
-# Olá, tudo bem?
+# Formação HTML Web Developer - Dio.me
 
-
+## Módulo 01 - Primeiros Passos com HTML
 
 Aqui você encontra o html do 1º Projeto do Curso HTML Web Developer oferecido pela DIO, nele somos desafiados a criar uma página utilizando todas as tags apresentadas até então no curso.
 
