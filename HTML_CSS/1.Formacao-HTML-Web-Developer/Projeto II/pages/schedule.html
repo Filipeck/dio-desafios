@@ -9,6 +9,23 @@
     <title>Clínica DIO - Horário de Atendimento</title>
     <link rel="shortcut icon" href="../assets/images/favicon-16x16.png" type="image/x-icon">
     <link rel="stylesheet" href="../assets/css/style.css">
+    <style>
+        .title {
+            background-color: rgb(39, 189, 154);
+        }
+
+        .subtitle{
+            background-color: rgb(138, 231, 209);
+        }
+
+        table tbody tr:nth-child(even){
+            background-color: rgb(141, 236, 214);
+        }
+
+        table tr{
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
     <div class="wrapper">
@@ -32,20 +49,70 @@
 
         <div class="main">
             <div class="header">                
-                <img src="../assets/images/Affinity_Medical.png" alt="Logo da Clinica" width="100px">
-                <h1>Clinica DIO</h1> 
-                <div class="search">
-                    <input type="search" name="search" id="" placeholder="Pesquisa">
-                </div>                
-                <div class="cadastro">
-                    <a href="#">Login do Paciente</a>
-                    <p>Não tem um cadastro? <a href="#">Cadastre-se aqui</a></p>
-                </div>
+                <h1>Horário de Atendimento</h1>
+                <img src="../assets/images/schedule.jpg" alt="Foto de Agendamento" width="100%" height="250px">
             </div>
     
             <div class="content">
-                Content
-                <!-- Aqui vai o seu conteúdo -->
+                <table cellpadding="5" align="center" width="85%">
+                    <thead>
+                        <tr>
+                            <th colspan="3" class="title">Clinica DIO - Horários</th>
+                        </tr>
+                        <tr class="subtitle">
+                            <th>Especialidade</th>
+                            <th>Segunda a Sexta</th>
+                            <th>Sábados, Domingos e Feriados</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Clínica Geral</td>
+                            <td>7h - 18h</td>
+                            <td>9h - 15h</td>
+                        </tr>
+                        <tr>
+                            <td>Cardiologia</td>
+                            <td>9h - 18h</td>
+                            <td>9h - 15h</td>
+                        </tr>
+                        <tr>
+                            <td>Ortopedia</td>
+                            <td>7h - 19h</td>
+                            <td>9h - 15h</td>
+                        </tr>
+                        <tr>
+                            <td>Dermatologia</td>
+                            <td>9h - 17h</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>Otorrinolaringologia</td>
+                            <td>9h - 17h</td>
+                            <td>9h - 15h</td>
+                        </tr>
+                        <tr>
+                            <td>Ginecologia</td>
+                            <td>9h - 17h</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>Urologia</td>
+                            <td>9h - 17h</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>Endocrinologia</td>
+                            <td>8h - 16h</td>
+                            <td>9h - 15h</td>
+                        </tr>
+                        <tr>
+                            <td>Geriatria</td>
+                            <td>7h - 19h</td>
+                            <td>9h - 15h</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
     
             <div class="footer">
@@ -62,7 +129,7 @@
                 </div>
 
                 <div>
-                    <img src="./assets/images/Affinity_Medical.png" alt="Logo Clinica" width="35px">
+                    <img src="../assets/images/Affinity_Medical.png" alt="Logo Clinica" width="35px">
                 </div>
 
                 <div>
