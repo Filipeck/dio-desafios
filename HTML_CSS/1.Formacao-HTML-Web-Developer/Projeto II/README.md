@@ -12,3 +12,7 @@ Os temas que deverão ser abordados são:
 Além de outros recursos.
 
 *O desafio é focado no uso do HTML, com isso haverá uma aplicação mínima de CSS, apenas para demonstrar posicionamento no layout.
+
+
+
+[Link do Site](https://clinica-dio.netlify.app/)
