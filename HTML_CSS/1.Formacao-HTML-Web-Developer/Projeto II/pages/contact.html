@@ -9,6 +9,29 @@
     <title>Clínica DIO - Contato</title>
     <link rel="shortcut icon" href="../assets/images/favicon-16x16.png" type="image/x-icon">
     <link rel="stylesheet" href="../assets/css/style.css">
+    <style>
+        label{            
+            width: 200px;
+            text-align: left;
+            display: inline-block;
+            padding-right: 5px;
+        }
+
+        fieldset{
+            width: 95%;
+            margin-bottom: 15px;
+            border-radius: 10px;
+            border-color: rgb(39, 189, 154);
+        }
+
+        fieldset input{
+            width: 450px;
+        }
+
+        fieldset div{
+            padding: 5px;
+        }
+    </style>
 </head>
 <body>
     <div class="wrapper">
@@ -31,27 +54,60 @@
         </div>
 
         <div class="main">
-            <div class="header">                
-                <img src="../assets/images/Affinity_Medical.png" alt="Logo da Clinica" width="100px">
-                <h1>Clinica DIO</h1> 
-                <div class="search">
-                    <input type="search" name="search" id="" placeholder="Pesquisa">
-                </div>                
-                <div class="cadastro">
-                    <a href="#">Login do Paciente</a>
-                    <p>Não tem um cadastro? <a href="#">Cadastre-se aqui</a></p>
-                </div>
+            <div class="header">
+                <h1>Contato</h1>                
+                <img src="../assets/images/contact.jpg" alt="Logo da Clinica" width="100%" height="300px">
             </div>
     
             <div class="content">
-                Content
-                <!-- Aqui vai o seu conteúdo -->
+                <h2>Para nós é uma grande satisfação falar com você.</h2>
+                <fieldset>
+                    <legend>Fale conosco</legend>
+                    <div>
+                        <label>Seu nome (obrigatório)</label><br><input type="text"> 
+                    </div>
+                    <div>
+                        <label>Seu e-mail (obrigatório)</label><br><input type="email"> 
+                    </div>
+                    <div>
+                        <label>Seu telefone (obrigatório)</label><br><input type="number"> 
+                    </div>
+                    <div>
+                        <label>Assunto</label><br><input type="text"> 
+                    </div>
+                    <br>
+                    <div>                        
+                        <textarea name="" id="" cols="65" rows="10" placeholder="Sua mensagem aqui"></textarea>
+                    </div>
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpar</button>                                   
+                </fieldset>
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3704.549600148889!2d-48.174586399999995!3d-21.797686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b8f3eecb6e442b%3A0xba82f2f640abfc24!2sAv.%207%20de%20Setembro%2C%20371%20-%20Centro%2C%20Araraquara%20-%20SP%2C%2014800-390!5e0!3m2!1spt-BR!2sbr!4v1662522620310!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            
+                <div>
+                    <ul>
+                        <li>
+                            <h3>Endereço:</h3>
+                            <p>Av Sete de Setembro 371, Araraquara, São Paulo, 14800-390</p>
+                        </li>
+                        <li>
+                            <h3>Telefone:</h3>
+                            <p><strong><u>Whatsapp:</u></strong> +55 71 9 9000 2010</p>
+                            <p><strong><u>Central de Consultas:</u></strong> +55 71 9 9000 1010</p>
+                        </li>
+                        <li>
+                            <h3>E-mail:</h3>
+                            <p>clinicadio@dio.me.com</p>
+                        </li>
+                    </ul>
+                </div>
             </div>
     
             <div class="footer">
                 <h2 style="display: inline-block;">Marcação de Consultas e Exames:</h2>
                 <img src="../assets/images/whatsapp-logo-1-1.png" alt="Whatsapp Logo" width="30px">
-                <span>+55 11 90000 1010</span>
+                <span>+55 11 9 9000 1010</span>
                 
                 <div>
                     <h3>Responsável Técnico: Dr. Digital Innovation One</h2>
