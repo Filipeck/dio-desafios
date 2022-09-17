@@ -3,7 +3,7 @@
 
 
 
-**Título:** Recriando Wikipedia, com um layout melhor :)
+**Título:** Criando uma página semântica com base no Wikipedia
 
 ## Objetivo
 
