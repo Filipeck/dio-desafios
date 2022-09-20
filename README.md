@@ -1,3 +1,7 @@
+<p align="center"><img src="./DIO.png" width="400"></p>
+
+
+
 # Olá, tudo bem? 🙋
 
 Seja bem-vindo ao meu primeiro projeto no GitHub! 👋
