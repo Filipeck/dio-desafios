@@ -1,6 +1,7 @@
 # Refinando um Projeto Conceitual de Banco de Dados E-COMMERCE:
 
-Este é um projeto proposto no [Bootcamp Heineken - Inteligência Artificial Aplicada a Dados com Copilot](https://web.dio.me/track/coding-the-future-heineken-ia-para-analise-de-dados) na plataforma DIO. 
+Este é um projeto proposto no [Bootcamp Heineken - Inteligência Artificial Aplicada a Dados com Copilot](https://web.dio.me/track/coding-the-future-heineken-ia-para-analise-de-dados) na plataforma DIO.
+
 A ferramenta utilizada foi o [MySQL Workbench](https://www.mysql.com/products/workbench/).
 
 ## Objetivo:
@@ -11,7 +12,7 @@ Refinar o modelo apresentado pela orientadora, acrescentando os seguintes pontos
 - **Entrega** – Possui status e código de rastreio;
 
 ## Resultado do Desafio
-![img](https://github.com/)
+![E-Commerce](https://github.com/Filipeck/dio-desafios/blob/main/4.SQL/Bootcamp-Heineken/Projeto_1_Projeto-Conceitual-Banco-Dados_E-COMMERCE/projeto-conceitual-ecommerce.png)
 
 Para a entidade Cliente foram criadas duas novas entidades **PJ_Pessoa Jurídica** e **PF_Pessoa Física** contendo as informações de CNPJ e CPF.  
 No caso de **Pagamento**, a entidade está atribuída a outras duas entidades afim de detalhar as formas de pagamento: **Cartão** e **Boleto**.  
