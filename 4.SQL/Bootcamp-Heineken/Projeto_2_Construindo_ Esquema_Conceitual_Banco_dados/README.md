@@ -18,4 +18,4 @@ Criação de um esquema conceitual de um banco de dados, tendo como contexto uma
 - Cada OS possui: n°, data de emissão, um valor, status e uma data para conclusão dos trabalhos.
 
 ## Resultado do Desafio
-![img](https://github.com/)
+![Esquema Conceitual Oficina]([https://github.com/](https://github.com/Filipeck/dio-desafios/blob/5eaffa474a3e83af315d613fb5106c81ab5b4c06/4.SQL/Bootcamp-Heineken/Projeto_2_Construindo_%20Esquema_Conceitual_Banco_dados/projeto_conceitual_oficina.png))
