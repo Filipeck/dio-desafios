@@ -1,4 +1,4 @@
-![bootcamp.png]
+![Bootcamp](./bootcamp.png)
 
 # Criando um dashboard de vendas do XBOX com Excel
 
