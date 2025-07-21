@@ -1,6 +1,6 @@
-# SUDOKU-JAVA
+# Sudoku-Java
 
-Este projeto é uma implementação do jogo Sudoku utilizando Programação Orientada a Objetos (POO) em Java. Desenvolvido como parte do desafio da [Digital Innovation One (DIO)](https://www.dio.me/), o objetivo é proporcionar uma experiência interativa e educativa para os entusiastas de Sudoku e programadores Java.
+Este projeto é uma implementação do jogo Sudoku utilizando Programação Orientada a Objetos (POO) em Java. Desenvolvido como parte do desafio proposto no bootcamp GFT Start #7 da [Digital Innovation One (DIO)](https://www.dio.me/), o objetivo é proporcionar uma experiência do jogo Sudoku com a linguagem Java.
 
 ## 📌 Funcionalidades
 
